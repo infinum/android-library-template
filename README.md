@@ -21,7 +21,7 @@
 
 // Explain the basic code setup and usage of the library with relevant code snippets. //
 
-### Configuration
+### // OPTIONAL: Configuration //
 
 // How to further configure the library, list any additional options //
 
