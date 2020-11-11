@@ -1,11 +1,9 @@
 
 // Bintray download / maven central / CI build badges / links (Github pages, wiki, etc.) //
 
- **// Library social image //**
-
 # // Library name //
 
-// Library logo (left wrap with text) //
+// Library logo (left wrap with title) //
 
 // OPTIONAL: A single image/screenshot/GIF descriptive of the main library function. You can stitch multiple images so they fit better horizontally if there are more things to show. //
 
