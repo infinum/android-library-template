@@ -45,7 +45,7 @@ Feedback and code contributions are very much welcome. Just make a pull request 
 ## License
 
 ```
-Copyright 2020 Infinum
+Copyright 2021 Infinum
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
