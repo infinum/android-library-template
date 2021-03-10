@@ -1,0 +1,12 @@
+ext.versions = [
+        "gradle"     : '4.1.2',
+        "kotlin"     : "1.4.31",
+]
+
+ext.packages = [
+        "gradle"     : "com.android.tools.build:gradle:${versions.gradle}",
+        "kotlin"     : [
+                "plugin": "org.jetbrains.kotlin:kotlin-gradle-plugin:${versions.kotlin}",
+                "core"  : "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${versions.kotlin}"
+        ]
+]

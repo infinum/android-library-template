@@ -83,3 +83,10 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+
+publish.properties
+*.gpg
+/.idea/.gitignore
+/.idea/compiler.xml
+/.idea/jarRepositories.xml
+/.idea/misc.xml
