@@ -1,5 +1,5 @@
 
-// Bintray download / maven central / CI build badges / links (Github pages, wiki, etc.) //
+// Maven central / CI build badges / links (Github pages, wiki, etc.) //
 
 ### <img align="left" src="logo.svg" width="48">
 # // Library name //
