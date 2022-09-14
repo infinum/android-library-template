@@ -15,7 +15,7 @@ task sourcesJar(type: Jar) {
 
 afterEvaluate {
     publishing {
-        // gets specific props defined per each module which breaks the need for multiple(per module) maven-publish files
+        // gets specific props defined per each module which breaks the need for multiple (per module) maven-publish files
         def properties = project.ext.mavenPublishProperties
 
         repositories {
