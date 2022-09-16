@@ -1,5 +1,6 @@
 ext {
     releaseConfig = [
+            // TODO - com.infinum.<YOUR-AWESOME-LIBRARY-NAME>
             "group"      : "com.infinum.libname",
             "version"    : "0.0.1"
     ]

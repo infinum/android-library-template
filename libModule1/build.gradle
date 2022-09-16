@@ -10,17 +10,23 @@ apply from: "$rootDir/maven-publish.gradle"
 ext.mavenPublishProperties = [
         group      : releaseConfig.group,
         version    : releaseConfig.version,
+        // TODO - <YOUR-LIBRARY-ARTIFACTID>
         artifactId   : "libModule1",
         repository : [
                 url     : sonatype.url,
                 username: sonatype.username,
                 password: sonatype.password
         ],
+        // TODO - <YOUR-AWESOME-LIBRARY-NAME>
         name       : "ExampleLib LibModule1",
+        // TODO - <YOUR-AWESOME-LIBRARY-DESCRIPTION>
         description: "ExampleLib LibModule1 module",
+        // TODO - https://github.com/infinum/<YOUR-AWESOME-LIBRARY>
         url        : "https://github.com/infinum/android-libname",
         scm        : [
+                // TODO - https://github.com/infinum/<YOUR-AWESOME-LIBRARY>.git
                 connection: "https://github.com/infinum/android-libname.git",
+                // TODO - https://github.com/infinum/<YOUR-AWESOME-LIBRARY>
                 url       : "https://github.com/infinum/android-libname"
         ]
 ]
