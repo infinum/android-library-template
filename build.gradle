@@ -10,7 +10,7 @@ buildscript {
     }
     dependencies {
         classpath packages.gradle
-        classpath packages.kotlin.plugin
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.0"
 //        classpath packages.cpd.plugin
 //        classpath packages.detekt.plugin
 //        classpath packages.ktlint.plugin

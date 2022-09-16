@@ -37,7 +37,10 @@ afterEvaluate {
                 version = properties.version
                 artifactId = properties.artifactId
 
-//                artifact bundleReleaseAar
+                project.plugins.withId("com.android.library") {
+                    artifact bundleReleaseAar
+                }
+
                 artifact sourcesJar
                 artifact javadocsJar
 
