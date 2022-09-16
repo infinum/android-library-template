@@ -90,3 +90,6 @@ publish.properties
 /.idea/compiler.xml
 /.idea/jarRepositories.xml
 /.idea/misc.xml
+
+# general
+/.DS_Store
