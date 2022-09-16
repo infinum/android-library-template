@@ -1,7 +1,6 @@
 ext {
     releaseConfig = [
             "group"      : "com.infinum.libname",
-            "version"    : "0.0.1",
-            "versionCode": 0 * 10000 + 0 * 100 + 1
+            "version"    : "0.0.1"
     ]
 }
