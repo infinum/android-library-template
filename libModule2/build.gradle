@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdkVersion buildConfig.compileSdk
 
     defaultConfig {
-        minSdk 26
-        targetSdk 32
+        minSdk buildConfig.minSdk
+        targetSdk buildConfig.targetSdk
     }
 
     buildTypes {
@@ -17,10 +17,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
     kotlinOptions {
         jvmTarget = '1.8'
     }
