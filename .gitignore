@@ -92,4 +92,4 @@ publish.properties
 /.idea/misc.xml
 
 # general
-/.DS_Store
+**/.DS_Store
