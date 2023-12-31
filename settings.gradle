@@ -1,0 +1,2 @@
+include(":libModule1")
+include(":libModule2")
