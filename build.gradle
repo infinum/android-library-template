@@ -10,10 +10,10 @@ buildscript {
     dependencies {
         classpath libs.tools.gradle
         classpath libs.kotlin.plugin
+        classpath libs.dokka.plugin
 //        classpath libs.cpd.plugin
 //        classpath libs.detekt.plugin
 //        classpath libs.ktlint.plugin
-//        classpath libs.dokka.plugin
     }
 }
 
@@ -21,24 +21,18 @@ allprojects {
 
     repositories {
         google()
+        mavenLocal()
         mavenCentral()
-        jcenter() {
-            content {
-                includeModule("com.soywiz.korlibs.korte", "korte-jvm")
-                includeModule("org.jetbrains.trove4j", "trove4j")
-                includeGroup("org.jetbrains.dokka")
-                includeGroup("org.jetbrains")
-            }
-        }
     }
 }
 
 subprojects {
+//    apply from: "$rootDir/dokka.gradle"
+//    apply from: "$rootDir/maven-publish.gradle"
+    apply from: "$rootDir/config.gradle"
 //    apply from: "$rootDir/cpd.gradle"
 //    apply from: "$rootDir/detekt.gradle"
 //    apply from: "$rootDir/ktlint.gradle"
-//    apply from: "$rootDir/dokka.gradle"
-//    apply from: "$rootDir/maven-publish.gradle"
 }
 
 task clean(type: Delete) {

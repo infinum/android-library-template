@@ -18,6 +18,8 @@ android {
         }
     }
 
+    namespace "com.infinum.libname"
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
@@ -29,7 +31,7 @@ android {
 }
 
 // or apply it per module through subprojects - root build.gradle
-apply from: "$rootDir/maven-publish.gradle"
+//apply from: "$rootDir/maven-publish.gradle"
 
 // specify per module - mostly needed due to different artifactIds, names, descriptions
 ext.mavenPublishProperties = [
