@@ -3,8 +3,9 @@ plugins {
     id "kotlin"
 }
 
-// or apply it per module through subprojects - root build.gradle
-//apply from: "$rootDir/maven-publish.gradle"
+apply from: "$rootDir/config.gradle"
+apply from: "$rootDir/dokka.gradle"
+apply from: "$rootDir/maven-publish.gradle"
 
 // specify per module - mostly needed due to different artifactIds, names, descriptions
 ext.mavenPublishProperties = [
