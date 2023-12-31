@@ -3,17 +3,20 @@ plugins {
     id 'org.jetbrains.kotlin.android'
 }
 
+apply from: "$rootDir/config.gradle"
+
 android {
     compileSdkVersion buildConfig.compileSdk
-    buildToolsVersion buildConfig.buildTools
 
     defaultConfig {
-        applicationId "com.example.sample"
+        applicationId "com.infinum.libname.sample"
         minSdkVersion buildConfig.minSdk
         targetSdkVersion buildConfig.targetSdk
         versionCode 1
         versionName releaseConfig.version
     }
+
+    namespace "com.infinum.libname"
 
     buildTypes {
         release {
