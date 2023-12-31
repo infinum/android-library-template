@@ -1,7 +1,6 @@
 buildscript {
 
     apply from: "maven.gradle"
-    apply from: "dependencies.gradle"
 
     repositories {
         google()
@@ -9,12 +8,12 @@ buildscript {
         gradlePluginPortal()
     }
     dependencies {
-        classpath packages.gradle
-        classpath packages.kotlin.plugin
-//        classpath packages.cpd.plugin
-//        classpath packages.detekt.plugin
-//        classpath packages.ktlint.plugin
-//        classpath packages.dokka.plugin
+        classpath libs.tools.gradle
+        classpath libs.kotlin.plugin
+//        classpath libs.cpd.plugin
+//        classpath libs.detekt.plugin
+//        classpath libs.ktlint.plugin
+//        classpath libs.dokka.plugin
     }
 }
 
