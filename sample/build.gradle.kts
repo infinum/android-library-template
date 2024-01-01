@@ -4,7 +4,7 @@ plugins {
 }
 
 apply {
-    from("$rootDir/config.gradle")
+    from("$rootDir/config.gradle.kts")
 }
 
 val buildConfig: Map<String, Any> by project
@@ -20,7 +20,8 @@ android {
         minSdk = buildConfig["minSdk"] as Int
         targetSdk = buildConfig["targetSdk"] as Int
         versionCode = releaseConfig["versionCode"] as Int
-    }
+        versionName = releaseConfig["version"] as String
+     }
 
     buildTypes {
         release {

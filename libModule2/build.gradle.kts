@@ -4,7 +4,7 @@ plugins {
 }
 
 apply {
-    from("$rootDir/config.gradle")
+    from("$rootDir/config.gradle.kts")
     from("$rootDir/dokka.gradle")
     from("$rootDir/maven-publish.gradle")
 }

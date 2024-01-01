@@ -1,21 +1,20 @@
 buildscript {
-
-    apply from: "maven.gradle"
+    apply(from = "maven.gradle")
 
     repositories {
         google()
         mavenCentral()
         gradlePluginPortal()
     }
+
     dependencies {
-        classpath libs.tools.gradle
-        classpath libs.kotlin.plugin
-        classpath libs.dokka.plugin
+        classpath(libs.tools.gradle)
+        classpath(libs.kotlin.plugin)
+        classpath(libs.dokka.plugin)
     }
 }
 
 allprojects {
-
     repositories {
         google()
         mavenLocal()
@@ -23,6 +22,6 @@ allprojects {
     }
 }
 
-task clean(type: Delete) {
-    delete rootProject.buildDir
+tasks.register<Delete>("clean") {
+    delete(rootProject.buildDir)
 }
