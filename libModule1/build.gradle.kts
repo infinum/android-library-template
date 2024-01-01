@@ -1,6 +1,6 @@
 plugins {
-    id("com.android.library")
-    id("org.jetbrains.kotlin.android")
+    id("java-library")
+    id("kotlin")
 }
 
 apply {
@@ -9,32 +9,12 @@ apply {
     from("$rootDir/maven-publish.gradle")
 }
 
-val buildConfig: Map<String, Any> by project
 val releaseConfig: Map<String, Any> by project
 val sonatype: Map<String, Any> by project
 
-android {
-    namespace = "com.infinum.libname"
-    compileSdk = buildConfig["compileSdk"] as Int
-
-    defaultConfig {
-        minSdk = buildConfig["minSdk"] as Int
-        consumerProguardFiles("consumer-rules.pro")
-    }
-
-    buildTypes {
-        release {
-            isMinifyEnabled = false
-            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
-        }
-    }
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
-    }
-    kotlinOptions {
-        jvmTarget = "11"
-    }
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
 }
 
 // specify per module - mostly needed due to different artifactIds, names, descriptions
@@ -42,16 +22,16 @@ extra["mavenPublishProperties"] = mapOf(
     "group" to releaseConfig["group"],
     "version" to releaseConfig["version"],
     // TODO - <YOUR-LIBRARY-ARTIFACTID>
-    "artifactId" to "libModule2",
+    "artifactId" to "libModule1",
     "repository" to mapOf(
         "url" to sonatype["url"],
         "username" to sonatype["username"],
         "password" to sonatype["password"]
     ),
     // TODO - <YOUR-AWESOME-LIBRARY-NAME>
-    "name" to "ExampleLib LibModule2",
+    "name" to "ExampleLib LibModule1",
     // TODO - <YOUR-AWESOME-LIBRARY-DESCRIPTION>
-    "description" to "ExampleLib LibModule2 module",
+    "description" to "ExampleLib LibModule1 module",
     // TODO - https://github.com/infinum/<YOUR-AWESOME-LIBRARY>
     "url" to "https://github.com/infinum/android-libname",
     "scm" to mapOf(
