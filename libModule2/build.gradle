@@ -4,8 +4,8 @@ plugins {
 }
 
 apply from: "$rootDir/config.gradle"
-//apply from: "$rootDir/dokka.gradle"
-//apply from: "$rootDir/maven-publish.gradle"
+apply from: "$rootDir/dokka.gradle"
+apply from: "$rootDir/maven-publish.gradle"
 
 android {
     compileSdkVersion buildConfig.compileSdk
