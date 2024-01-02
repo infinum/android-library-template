@@ -7,6 +7,8 @@ apply {
     from("$rootDir/config.gradle.kts")
     from("$rootDir/dokka.gradle")
     from("$rootDir/maven-publish.gradle")
+    from("$rootDir/ktlint.gradle")
+    from("$rootDir/detekt.gradle")
 }
 
 val buildConfig: Map<String, Any> by project
@@ -25,7 +27,10 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = false
-            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
         }
     }
     compileOptions {

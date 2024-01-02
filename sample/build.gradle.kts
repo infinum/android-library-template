@@ -5,6 +5,8 @@ plugins {
 
 apply {
     from("$rootDir/config.gradle.kts")
+    from("$rootDir/ktlint.gradle")
+    from("$rootDir/detekt.gradle")
 }
 
 val buildConfig: Map<String, Any> by project
@@ -21,12 +23,15 @@ android {
         targetSdk = buildConfig["targetSdk"] as Int
         versionCode = releaseConfig["versionCode"] as Int
         versionName = releaseConfig["version"] as String
-     }
+    }
 
     buildTypes {
         release {
             isMinifyEnabled = false
-            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
         }
     }
     compileOptions {

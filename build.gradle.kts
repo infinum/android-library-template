@@ -1,3 +1,8 @@
+plugins {
+    alias(libs.plugins.detekt.plugin)
+    alias(libs.plugins.ktlint.plugin)
+}
+
 buildscript {
     apply(from = "maven.gradle")
 
