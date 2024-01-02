@@ -20,4 +20,3 @@ kotlin-core = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "ko
 dokka-plugin = { module = "org.jetbrains.dokka:dokka-gradle-plugin", version.ref = "dokka" }
 
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
-androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraint-layout" }

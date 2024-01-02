@@ -58,5 +58,4 @@ dependencies {
     //    implementation(packages.android-libname.libModule2)
 
     implementation(libs.androidx.appcompat)
-    implementation(libs.androidx.constraintlayout)
 }
