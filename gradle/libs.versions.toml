@@ -1,6 +1,6 @@
 [versions]
 androidGradlePlugin = "8.2.0"
-kotlin = "1.9.21"
+kotlin = "1.9.22"
 
 [libraries]
 tools-gradle = { module = "com.android.tools.build:gradle", version.ref = "androidGradlePlugin" }
