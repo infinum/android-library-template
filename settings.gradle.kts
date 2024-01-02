@@ -3,4 +3,4 @@ include(":libModule2")
 include(":sample")
 
 // TODO - add project name
-rootProject.name = "android-library-template"
+rootProject.name = "Android Library Template"
