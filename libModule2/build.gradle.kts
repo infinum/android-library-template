@@ -16,6 +16,7 @@ val releaseConfig: Map<String, Any> by project
 val sonatype: Map<String, Any> by project
 
 android {
+    // TODO - com.infinum.<YOUR-AWESOME-LIBRARY-NAME>
     namespace = "com.infinum.libname"
     compileSdk = buildConfig["compileSdk"] as Int
 

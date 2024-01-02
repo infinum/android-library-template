@@ -14,10 +14,12 @@ val releaseConfig: Map<String, Any> by project
 val sonatype: Map<String, Any> by project
 
 android {
+    // TODO - com.infinum.<YOUR-AWESOME-LIBRARY-NAME>.sample
     namespace = "com.infinum.libname.sample"
     compileSdk = buildConfig["compileSdk"] as Int
 
     defaultConfig {
+        // TODO - com.infinum.<YOUR-AWESOME-LIBRARY-NAME>.sample
         applicationId = "com.infinum.libname.sample"
         minSdk = buildConfig["minSdk"] as Int
         targetSdk = buildConfig["targetSdk"] as Int
