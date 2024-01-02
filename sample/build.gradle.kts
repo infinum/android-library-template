@@ -5,7 +5,6 @@ plugins {
 
 apply {
     from("$rootDir/config.gradle.kts")
-    from("$rootDir/ktlint.gradle")
     from("$rootDir/detekt.gradle")
 }
 

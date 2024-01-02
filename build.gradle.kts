@@ -1,6 +1,5 @@
 plugins {
     alias(libs.plugins.detekt.plugin)
-    alias(libs.plugins.ktlint.plugin)
 }
 
 buildscript {
