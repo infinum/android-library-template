@@ -55,6 +55,6 @@ dependencies {
     //    implementation(packages.android-libname.libModule1)
     //    implementation(packages.android-libname.libModule2)
 
-    implementation("com.android.support:appcompat-v7:28.0.0")
-    implementation("com.android.support.constraint:constraint-layout:2.0.4")
+    implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.constraintlayout)
 }
