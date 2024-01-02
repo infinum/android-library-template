@@ -5,7 +5,6 @@ dokka = "1.9.10"
 ktlint = "11.3.1"
 detekt = "1.22.0"
 appcompat = "1.6.1"
-constraint-layout = "2.1.4"
 
 [plugins]
 ktlint-plugin = { id = "org.jlleitschuh.gradle.ktlint", version.ref = "ktlint" }
