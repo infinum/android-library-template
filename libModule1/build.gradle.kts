@@ -15,8 +15,8 @@ val releaseConfig: Map<String, Any> by project
 val sonatype: Map<String, Any> by project
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_11
-    targetCompatibility = JavaVersion.VERSION_11
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }
 
 // specify per module - mostly needed due to different artifactIds, names, descriptions
