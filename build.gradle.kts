@@ -26,7 +26,3 @@ allprojects {
         mavenCentral()
     }
 }
-
-tasks.register<Delete>("clean") {
-    delete(rootProject.buildDir)
-}
