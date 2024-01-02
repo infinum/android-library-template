@@ -15,7 +15,7 @@ detekt-plugin = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt"}
 tools-gradle = { module = "com.android.tools.build:gradle", version.ref = "androidGradlePlugin" }
 
 kotlin-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
-kotlin-core = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8", version.ref = "kotlin" }
+kotlin-core = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
 
 dokka-plugin = { module = "org.jetbrains.dokka:dokka-gradle-plugin", version.ref = "dokka" }
 
