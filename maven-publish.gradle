@@ -10,7 +10,12 @@ task javadocsJar(type: Jar, dependsOn: "dokkaJavadoc") {
 
 task sourcesJar(type: Jar) {
     getArchiveClassifier().set("sources")
-    from sourceSets.main.allJava
+    if (project.plugins.hasPlugin('com.android.application')
+        || project.plugins.hasPlugin('com.android.library')) {
+        from android.sourceSets.main.kotlin.srcDirs
+    } else {
+        from sourceSets.main.allJava
+    }
 }
 
 afterEvaluate {
@@ -31,7 +36,7 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 // Only needed for non Android modules. Uncomment if it is needed.
-//                from components.java
+                // from components.java
 
                 groupId = properties.group
                 version = properties.version
