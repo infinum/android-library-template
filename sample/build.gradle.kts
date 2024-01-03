@@ -22,7 +22,7 @@ android {
         applicationId = "com.infinum.libname.sample"
         minSdk = buildConfig["minSdk"] as Int
         targetSdk = buildConfig["targetSdk"] as Int
-        versionCode = releaseConfig["versionCode"] as Int
+        versionCode = 1
         versionName = releaseConfig["version"] as String
     }
 
