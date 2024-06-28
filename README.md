@@ -35,7 +35,6 @@ Setup instruction: Follow the steps from the SETUP.md file.
 * [Contributing](#contributing)
 * [License](#license)
 * [Credits](#credits)
-*
 
 ## Requirements
 
@@ -52,21 +51,21 @@ Setup instruction: Follow the steps from the SETUP.md file.
     e.g. Groovy and KotlinDSL snippets for including the library (and its modules)
 -->
 
-### Usage
+## Usage
 
 <!--
     Explain how to use the project, including any relevant code snippets or examples.
     Provide detailed documentation that explains how to use the project effectively.
 -->
 
-### // OPTIONAL: Configuration //
+## // OPTIONAL: Configuration //
 
 <!--
     How to further configure the library, list any additional options
     If used, don't forget to include in table of contents
 -->
 
-### // OPTIONAL: Specific usage info //
+## // OPTIONAL: Specific usage info //
 
 <!--
     Depending on the complexity of the library, you might have one or more sections where you 
@@ -75,7 +74,7 @@ Setup instruction: Follow the steps from the SETUP.md file.
     If used, don't forget to include in table of contents
 -->
 
-### // OPTIONAL // Known issues
+## // OPTIONAL // Known issues
 
 <!--
     List known issues which are critical to the basic library functions
