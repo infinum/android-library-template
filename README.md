@@ -1,46 +1,95 @@
+```text
+Setup instruction: Follow the steps from the SETUP.md file.
+```
 
 // Maven central / CI build badges / links (Github pages, wiki, etc.) //
 
-### <img align="left" src="logo.svg" width="48">
 # // Library name //
 
-// Library logo (left wrap with title) //
+<!--
+    This is the logo/image area for the project.
+    Add a project logo or image (if applicable) to this part of the file.
 
-// OPTIONAL: A single image/screenshot/GIF descriptive of the main library function. You can stitch multiple images so they fit better horizontally if there are more things to show. //
+    Try to make it visually appealing and relevant to the project.
+    Check the *Credits* section as an example for a centered image.
+-->
 
-// Introduce the library with max 3-4 paragraphs describing what the library is and what is it used for. Try to use bulletpoints to highlight main features of the lib. //
+<!--
+    This is the status area for the project.
+    Add project badges (if needed) to this part of the file.
+-->
 
-// OPTIONAL: If there are any additional modules/plugins, list and describe them here //
+## Description
 
-## Getting started
+<!--
+    Provide a detailed explanation of the project, its purpose, and its goals.
+    Include any relevant background information, such as the problem the project solves,
+    the target audience, and how the project differs from other similar projects.
+-->
 
-// Groovy and KotlinDSL snippets for including the library (and its modules) //
+## Table of contents
 
-### Usage
-
-// Explain the basic code setup and usage of the library with relevant code snippets. //
-
-### // OPTIONAL: Configuration //
-
-// How to further configure the library, list any additional options //
-
-### // OPTIONAL: Specific usage info //
-
-// Depending on the complexity of the library, you might have one or more sections where you explain specific use-cases which do not fall under "basic" usage. You **should not** cover the whole API here, just some of the more common usages of the library. //
+* [Requirements](#requirements)
+* [Getting started](#getting-started)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [License](#license)
+* [Credits](#credits)
+*
 
 ## Requirements
 
-// e.g., API 21, AndroidX, other libraries //
+<!--
+    Provide information about minimum requirements needed for project to be runnable.
+    e.g., API 21, AndroidX, other libraries //
+-->
+
+## Getting started
+
+<!-- 
+    Explain how to install the project, including any dependencies that need to be installed.
+    Provide clear and concise instructions that can be easily followed.
+    e.g. Groovy and KotlinDSL snippets for including the library (and its modules)
+-->
+
+### Usage
+
+<!--
+    Explain how to use the project, including any relevant code snippets or examples.
+    Provide detailed documentation that explains how to use the project effectively.
+-->
+
+### // OPTIONAL: Configuration //
+
+<!--
+    How to further configure the library, list any additional options
+    If used, don't forget to include in table of contents
+-->
+
+### // OPTIONAL: Specific usage info //
+
+<!--
+    Depending on the complexity of the library, you might have one or more sections where you 
+    explain specific use-cases which do not fall under "basic" usage. You **should not** cover the 
+    whole API here, just some of the more common usages of the library
+    If used, don't forget to include in table of contents
+-->
 
 ### // OPTIONAL // Known issues
 
-// List known issues which are critical to the basic library functions //
+<!--
+    List known issues which are critical to the basic library functions
+    If used, don't forget to include in table of contents
+-->
 
 ## Contributing
 
-Feedback and code contributions are very much welcome. Just make a pull request with a short description of your changes. By making contributions to this project you give permission for your code to be used under the same [license](LICENSE).  
+Feedback and code contributions are very much welcome. Just make a pull request with a short
+description of your changes. By making contributions to this project you give permission for your
+code to be used under the same [license](LICENSE).
 
-// Add any other info specific to contributing to this library (e.g., if you have a sample app to help with development) //
+// Add any other info specific to contributing to this library (e.g., if you have a sample app to
+help with development) //
 
 ## License
 
@@ -61,13 +110,14 @@ limitations under the License.
 ```
 
 ## Credits
-Maintained and sponsored by [Infinum](http://www.infinum.com).
 
-<p align="center">
-  <a href='https://infinum.com'>
+Maintained and sponsored by [Infinum](https://infinum.com).
+
+<div align="center">
+    <a href='https://infinum.com'>
     <picture>
         <source srcset="https://assets.infinum.com/brand/logo/static/white.svg" media="(prefers-color-scheme: dark)">
         <img src="https://assets.infinum.com/brand/logo/static/default.svg">
     </picture>
-  </a>
-</p>
+    </a>
+</div>
