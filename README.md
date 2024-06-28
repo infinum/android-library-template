@@ -74,7 +74,7 @@ Setup instruction: Follow the steps from the SETUP.md file.
     If used, don't forget to include in table of contents
 -->
 
-## // OPTIONAL // Known issues
+## // OPTIONAL Known issues //
 
 <!--
     List known issues which are critical to the basic library functions
