@@ -8,10 +8,8 @@ Before you start using this template, complete the following steps:
 - [ ] Add a short description of the repository
 - [ ] Add tags for the repository
   - [ ] `open-source`,
-  - [ ] technology tag (`android`, `ios`, or `flutter`),
+  - [ ] technology tag (`android` in this case),
   - [ ] other tags that are relevant to the repository
-- [ ] Create a `.gitignore` file
-- [ ] Create workflows
 - [ ] Update the `README.md` file with the missing information
   - [ ] Delete the _Setup instructions_ note from the file
   - [ ] Add the project name
@@ -24,5 +22,6 @@ Before you start using this template, complete the following steps:
 - [ ] Update the `CONTRIBUTING.md` file
 - [ ] Update the `SECURITY.md` file
 - [ ] Update the `LICENSE` file
+- [ ] Update the `.gitignore` file
 - [ ] Update the pull request template
 - [ ] Update issue templates
