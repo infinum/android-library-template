@@ -19,3 +19,8 @@ assignees: ''
 <!-- 
     Add any other information or screenshots about the feature request here. 
 -->
+
+##  Describe alternatives you've considered
+<!-- 
+    Can you think of alternative approaches to achieve same goal?
+-->

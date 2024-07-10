@@ -19,7 +19,7 @@ about: Create a report to help us improve
 ## Environment
 - **Device**: <!-- e.g. Pixel 5 -->
 - **OS**: <!-- e.g. 9.0.0 -->
-- **Software Information**: <!-- Add software information (e.g. name, version, build number, etc.). -->
+- **Library version**: <!-- e.g. Sentinel 1.3.0). -->
 
 ## Steps to reproduce
 <!-- How we can reproduce the behavior: -->
