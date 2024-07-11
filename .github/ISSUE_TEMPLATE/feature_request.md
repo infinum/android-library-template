@@ -1,31 +1,26 @@
 ---
 name: Feature request
-about: Suggest an idea for this project
-title: ''
+about: Propose a new feature or an idea for this project
+title: 'Feature request: '
 labels: enhancement
 assignees: ''
 
 ---
 
----
-name: Feature request
-about: Suggest an idea for this project
 
----
+## 💡 Feature description
+<!-- 
+    Add a description of what the the feature is, and what problem does it solve.
+    Try to include clear and concise information about the feature you're requesting.
+-->
 
-## :warning: Is your feature request related to a problem? Please describe
-<!-- A clear and concise description of what the problem is. Ex. I'm always frustrated when [...] -->
+## ℹ️ Additional information
 
-## :bulb: Describe the solution you'd like
-<!-- A clear and concise description of what you want to happen. -->
+<!-- 
+    Add any other information or screenshots about the feature request here. 
+-->
 
-## :bar_chart: Describe alternatives you've considered
-<!-- A clear and concise description of any alternative solutions or features you've considered. -->
-
-## :page_facing_up: Additional context
-<!-- Add any other context or screenshots about the feature request here. -->
-
-## :raising_hand: Do you want to develop this feature yourself?
-<!-- Put an `x` symbol into braces of desired choice. -->
-- [ ] Yes
-- [ ] No
+## 🤔 Describe alternatives you've considered
+<!-- 
+    Can you think of alternative approaches to achieve same goal?
+-->
