@@ -59,12 +59,15 @@ afterEvaluate {
                             url = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
                         }
                     }
+                    organization {
+                        name = 'Infinum Inc.'
+                        url = 'https://infinum.com'
+                    }
                     developers {
-                        // TODO - update with correct developer id
                         developer {
-                            id = 'malicombo'
-                            name = 'Mali Čombo'
-                            email = 'mali.combo@infinum.com'
+                            id = 'Infinum'
+                            name = 'Infinum Inc.'
+                            url = 'https://infinum.com'
                         }
                     }
                     scm {
