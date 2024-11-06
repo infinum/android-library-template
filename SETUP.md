@@ -38,4 +38,4 @@ The repository files can be changed if the project requires it. If there is a pr
 - [ ] Update the pull request template
 - [ ] Update issue templates
 
-[^1]: Define how changes will be documented; e.g. `CHANGELOG.md` file, Releases section in GitHub, usage of additional tools, etc.
+[^1]: Define how changes will be documented; e.g. Releases section in GitHub (the recommended way), usage of additional tools, etc.
