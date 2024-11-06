@@ -20,7 +20,7 @@ Before you start using this template, complete the following steps:
 
 ### Project information
 
-If your project needs to provide additional information like backward compatibility, system status or similar, include it to the `README.md` file of additional file in a clear and informative format (e.g. compatibility matrix, table, timeline, etc.). Also, if there is a need for additional information for contributors, additional security measures or specific license, update and adjust related files.
+If your project needs to provide additional information like backward compatibility or similar, include it to the `README.md` file of additional file in a clear and informative format (e.g. compatibility matrix, table, timeline, etc.). Also, if there is a need for additional information for contributors, additional security measures or specific license, update and adjust related files.
 
 ### Issue templates
 
