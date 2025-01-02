@@ -58,6 +58,15 @@ Setup instruction: Follow the steps from the SETUP.md file.
     Provide detailed documentation that explains how to use the project effectively.
 -->
 
+<!-- 
+    To keep track of public API (and breaking changes), you can use the following plugin:
+    https://github.com/Kotlin/binary-compatibility-validator
+    Plugin is already integrated in the project, you can run it with (read more in the plugin's README):
+    ./gradlew apiDump
+    ./gradlew apiCheck
+    
+-->
+
 ## // OPTIONAL: Configuration //
 
 <!--

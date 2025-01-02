@@ -1,5 +1,10 @@
 plugins {
     alias(libs.plugins.detekt.plugin)
+    alias(libs.plugins.kotlin.binary.compatibility.validator)
+}
+
+apiValidation {
+    ignoredProjects.addAll(listOf("sample"))
 }
 
 buildscript {
