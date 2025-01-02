@@ -1,6 +1,8 @@
+import org.jetbrains.kotlin.gradle.dsl.kotlinExtension
+
 plugins {
     id("java-library")
-    id("kotlin")
+    id(libs.plugins.jetbrains.kotlin.jvm.get().pluginId)
 }
 
 apply {
@@ -16,6 +18,8 @@ val sonatype: Map<String, Any> by project
 java {
     sourceCompatibility = JavaVersion.VERSION_17
     targetCompatibility = JavaVersion.VERSION_17
+    kotlinExtension.explicitApi()
+    kotlin.jvmToolchain(17)
 }
 
 // specify per module - mostly needed due to different artifactIds, names, descriptions
