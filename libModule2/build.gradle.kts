@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.dsl.ExplicitApiMode
+
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
@@ -36,6 +38,9 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
+    }
+    kotlin{
+        explicitApi()
     }
     kotlinOptions {
         jvmTarget = "17"

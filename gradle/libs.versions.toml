@@ -4,11 +4,13 @@ androidGradlePlugin = "8.6.0"
 detekt = "1.23.6"
 dokka = "1.9.10"
 kotlin = "2.0.20"
+jetbrainsKotlinJvm = "2.0.20"
 binaryCompatibilityValidator = "0.17.0"
 
 [plugins]
 detekt-plugin = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt"}
 kotlin-binary-compatibility-validator = { id = "org.jetbrains.kotlinx.binary-compatibility-validator", version.ref = "binaryCompatibilityValidator" }
+jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }
 
 [libraries]
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
