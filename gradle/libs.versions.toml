@@ -1,9 +1,9 @@
 [versions]
-appcompat = "1.7.0"
+appcompat = "1.7.1"
 androidGradlePlugin = "8.6.0"
-detekt = "1.23.6"
-dokka = "1.9.10"
-kotlin = "2.0.20"
+detekt = "1.23.8"
+dokka = "1.9.20"
+kotlin = "2.2.0"
 
 [plugins]
 detekt-plugin = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt"}
