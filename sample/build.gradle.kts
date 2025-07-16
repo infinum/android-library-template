@@ -9,8 +9,6 @@ apply {
 }
 
 val buildConfig: Map<String, Any> by project
-val releaseConfig: Map<String, Any> by project
-val sonatype: Map<String, Any> by project
 
 android {
     // TODO - com.infinum.<YOUR-AWESOME-LIBRARY-NAME>.sample
@@ -23,7 +21,7 @@ android {
         minSdk = buildConfig["minSdk"] as Int
         targetSdk = buildConfig["targetSdk"] as Int
         versionCode = 1
-        versionName = releaseConfig["version"] as String
+        versionName = libs.versions.library.get()
     }
 
     buildTypes {
