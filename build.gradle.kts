@@ -3,8 +3,6 @@ plugins {
 }
 
 buildscript {
-    apply(from = "maven.gradle")
-
     repositories {
         google()
         mavenCentral()
