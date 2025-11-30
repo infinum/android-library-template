@@ -1,5 +1,5 @@
 extra["buildConfig"] = mapOf(
     "minSdk" to 28,
-    "compileSdk" to 35,
-    "targetSdk" to 35
+    "compileSdk" to 36,
+    "targetSdk" to 36
 )
